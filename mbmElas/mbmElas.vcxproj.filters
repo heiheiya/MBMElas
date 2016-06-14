@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MBMElas">
+      <UniqueIdentifier>{b4db0a36-77e0-4ce3-8d80-8e2f2b71e06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{3838ef2e-cd4e-4d92-902b-40c33790e8cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMElas\matrix.cpp">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMElas\MBMElas.cpp">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMElas\triangle.cpp">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\domain_transform.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\dtfilter_cpu.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\edgeaware_filters_common.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\estimated_covariance.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\fast_hough_transform.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\graphsegmentation.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\guided_filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\joint_bilateral_filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\seeds.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\structured_edge_detection.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMElas\guidedFilter.cpp">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MBMElas\matrix.h">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMElas\MBMElas.h">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMElas\triangle.h">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\advanced_types.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\dtfilter_cpu.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\dtfilter_cpu.inl.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\edge_filter.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\edgeaware_filters_common.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\estimated_covariance.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\fast_hough_transform.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\precomp.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\seeds.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\segmentation.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\structured_edge_detection.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\ximgproc.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMElas\guidedFilter.h">
+      <Filter>Header Files\MBMElas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
